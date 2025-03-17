@@ -23,9 +23,10 @@ const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
 // modal variable
-const modalImg = document.querySelector("[data-modal-img]");
-const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
+// const modalImg = document.querySelector("[data-modal-img]");
+// const modalTitle = document.querySelector("[data-modal-title]");
+// const modalText = document.querySelector("[data-modal-text]");
+const modalVideoCode = document.querySelector("[data-modal-video]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
@@ -38,10 +39,11 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
   testimonialsItem[i].addEventListener("click", function () {
 
-    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
-    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
-    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+    // modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
+    // modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
+    // modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
+    // modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+    modalVideoCode.src = this.querySelector("[data-testimonials-video]").src;
 
     testimonialsModalFunc();
 
