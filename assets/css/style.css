@@ -552,6 +552,13 @@ main {
   margin-bottom: 15px;
 }
 
+.skills-item p {
+  color: var(--white-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
 
 
 /**
